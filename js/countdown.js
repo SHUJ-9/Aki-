@@ -3,7 +3,7 @@
 const prevV = { cD: '', cH: '', cM: '', cS: '' };
 
 function startCountdown() {
-    const bday = new Date('2020-01-01T00:00:00'); /* TEST — restore to 2026-06-01T00:00:00 */
+    const bday = new Date('2026-06-01T00:00:00');
 
     function tick() {
         const diff = bday - new Date();
