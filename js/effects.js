@@ -2,7 +2,7 @@
 
 function spawnPetals() {
     const c = document.getElementById('petals');
-    for (let i = 0; i < 22; i++) {
+    for (let i = 0; i < 10; i++) {
         const el = document.createElement('div');
         el.className = 'petal';
         el.style.cssText = `left:${Math.random() * 100}vw;animation-duration:${Math.random() * 8 + 7}s;animation-delay:${Math.random() * 14}s;`;
@@ -21,7 +21,7 @@ function spawnPetals() {
 }
 
 function spawnSparks() {
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 8; i++) {
         const el = document.createElement('div');
         el.className = 'spark';
         const size = Math.random() * 3 + 1;
