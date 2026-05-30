@@ -1,0 +1,27 @@
+document.getElementById('slot-login').innerHTML = `
+<div id="loginScreen">
+    <div class="login-glow">
+        <div class="login-card">
+            <div class="login-orn">✦ &nbsp; · &nbsp; ✦ &nbsp; · &nbsp; ✦</div>
+            <div class="login-heart-wrap">
+                <div class="h-ring r1"></div>
+                <div class="h-ring r2"></div>
+                <div class="login-heart">💕</div>
+            </div>
+            <div class="login-for">specially crafted for</div>
+            <h1 class="login-title">Sharielle Kirsten</h1>
+            <p class="login-sub">✦ &nbsp; Private Access &nbsp; ✦</p>
+            <div class="login-div"><span class="div-icon">🌹</span></div>
+            <label class="field-label" for="nameIn">Secret Word</label>
+            <div class="login-input-wrap">
+                <span class="input-icon">🔑</span>
+                <input id="nameIn" class="login-input" type="text" placeholder="Whisper the secret word..." autocomplete="off" spellcheck="false">
+            </div>
+            <button class="login-btn" id="loginBtn">Enter &nbsp; 💕</button>
+            <div class="err" id="errMsg"></div>
+            <div class="login-orn-bot">✦ &nbsp; · &nbsp; ✦ &nbsp; · &nbsp; ✦</div>
+            <p class="login-footer">Made with love, just for you 🌹</p>
+        </div>
+    </div>
+</div>
+`;

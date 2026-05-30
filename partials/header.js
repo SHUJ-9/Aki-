@@ -1,0 +1,15 @@
+document.getElementById('slot-header').innerHTML = `
+<div class="stripe"></div>
+<header class="hdr">
+    <div class="hdr-inner">
+        <span class="logo">For My Sharielle 💕</span>
+        <nav class="nav">
+            <button class="nb on" onclick="showSec('birthday',this)">🎂 Birthday</button>
+            <button class="nb"    onclick="showSec('photos',this)">📸 Photos</button>
+            <button class="nb"    onclick="showSec('games',this)">🎮 Games</button>
+        </nav>
+        <button class="music-btn" id="musicBtn" onclick="toggleMusic()">♫ Music</button>
+        <button class="logout" onclick="doLogout()">Logout</button>
+    </div>
+</header>
+`;

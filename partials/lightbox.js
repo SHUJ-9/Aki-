@@ -1,0 +1,6 @@
+document.getElementById('slot-lightbox').innerHTML = `
+<div id="lb">
+    <button id="lb-close" onclick="closeLB()">✕</button>
+    <img id="lb-img" src="" alt="">
+</div>
+`;

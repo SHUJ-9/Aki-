@@ -1,0 +1,5 @@
+document.getElementById('slot-audio').innerHTML = `
+<audio id="bgMusic" loop>
+    <source src="music/Last-Night-on-Earth.mp3" type="audio/mpeg">
+</audio>
+`;

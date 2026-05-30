@@ -1,0 +1,9 @@
+document.getElementById('slot-photos').innerHTML = `
+<section id="sec-photos" class="sec">
+    <div class="sec-head">
+        <h2 class="sec-h">Our Precious Memories 📸</h2>
+        <p class="sec-sub">✦ Moments frozen in time, just for us ✦</p>
+    </div>
+    <div class="photo-grid" id="photoGrid"></div>
+</section>
+`;
